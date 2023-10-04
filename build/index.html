@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BURZUM - an official website</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+  <header class="sticky top-0 z-10 bg-black text-white">
+    <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+      <h1 class="text-3xl font-bold">
+        <a href="#home"> BURZUM</a>
+      </h1>
+      <div>
+        <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
+          <div
+            class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+          </div>
+        </button>
+        <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+          <a href="#Music" class="hover:opacity-90">Music</a>
+          <a href="#About" class="hover:opacity-90">About</a>
+          <a href="#Contact" class="hover:opacity-90">Contact</a>
+        </nav>
+      </div>
+    </section>
+    <section id="mobile-menu"
+      class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl">
+
+      <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+        <a href="#Music" class="hover:opacity-90">Music</a>
+        <a href="#About" class="hover:opacity-90">About</a>
+        <a href="#Contact" class="hover:opacity-90">Contact</a>
+      </nav>
+    </section>
+  </header>
+  <main class="mx-auto max-w-4xl">
+    <section id="hero"
+      class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
+      <article class="sm:w-1/2">
+        <h2 class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl">
+          The death is coming...
+        </h2>
+        <p class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
+          "In Vain... but Who's to Know
+          Further on Lies Eternal Search"
+        </p>
+          <img class="w-1/2" src="./img/brz.jpg" alt="Rocket Dab" />
+
+      </article>
+      <img class="w-1/2" src="./img/burzum1.jpg" alt="Rocket Dab" />
+    </section>
+
+    <hr class="mx-auto w-3/4 bg-black dark:bg-white" />
+
+    <section id="Music" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6">
+      <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Songs
+      </h2>
+      <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row">
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/DPyOhP1GTRQ"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+            ></iframe>
+          </div>
+        </li>
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/YiHMy6V5Qjc"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+              
+            ></iframe>
+          </div>
+        </li>
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/PIiINg7pNfo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+              
+            ></iframe>
+          </div>
+        </li>
+      </ul>
+      <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row">
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/vfBmYfnjLho"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+            ></iframe>
+          </div>
+        </li>
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/ySoWnxfOnIs"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+              
+            ></iframe>
+          </div>
+        </li>
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/nZPOrp-UiU8"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+              
+            ></iframe>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <hr class="mx-auto w-10 bg-black dark:bg-white" />
+
+
+    <section id="Albums" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-1">
+      <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Albums
+      </h2>
+      <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row">
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/Z2TlkRa-N1Q"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+            ></iframe>
+          </div>
+        </li>
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/cUEXQSlTCYI"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+              
+            ></iframe>
+          </div>
+        </li>
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/PIiINg7pNfo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+              
+            ></iframe>
+          </div>
+        </li>
+      </ul>
+      <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row">
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/vfBmYfnjLho"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+            ></iframe>
+          </div>
+        </li>
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/ySoWnxfOnIs"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+              
+            ></iframe>
+          </div>
+        </li>
+        <li>
+          <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/nZPOrp-UiU8"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style="border:1px solid gray"
+              
+            ></iframe>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="About"
+      class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6">
+      <img class="w-1" src="./img/death.png" alt="Rocket Dab" />
+
+      <figure class="my-12">
+          <p
+            class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
+            Burzum was a Norwegian music project founded by Varg Vikernes in 1991. Although Burzum never played live performances, it became a part of the early Norwegian black metal scene and is considered one of the most influential acts in black metal's history. Vikernes has also released four dark ambient and neofolk albums. The word "burzum" means "darkness" in the black speech, a fictional language crafted by The Lord of the Rings writer J. R. R. Tolkien. Burzum's lyrics and imagery are often inspired by fantasy and Norse mythology, and do not feature the political views for which Vikernes is known. However, his neo-nazi views remain a source of controversy
+          </p>
+
+      </figure>
+
+      <img class="w-1" src="./img/burzum2.jpg" alt="Rocket Dab" />
+
+
+
+      
+    </section>
+
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+    <section id="Contact" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-16 p-6">
+      <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Contact
+      </h2>
+      <img class="w-1" src="./img/burzum3.jpg" alt="Rocket Dab" />
+      <section id="contact" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-s p-3">
+        <h2 class="mb-6 text-left text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+          Join us!
+        </h2>
+        <a href="https://telegram.im/@burzumorg" target="_blank" class="telegramim_button telegramim_shadow telegramim_pulse" style="font-size:26px;width:268px;background:#27A5E7;box-shadow:1px 1px 5px #27A5E7;color:#FFFFFF;border-radius:39px;" title=""><i></i> BURZUM </a>
+      </section>
+      <img class="w-1" src="./img/death1.png" alt="Rocket Dab" />
+  </main>
+
+
+  
+  <footer id="footer" class="bg-black text-xl text-white">
+    <section class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between">
+      <address>
+        <h2>BURZUM</h2>
+        Email:
+        <a href="mailto:	admin@burzum.org
+        ">	admin@burzum.orgm✉️
+      </a><br />
+      </address>
+      <nav class="hidden flex-col gap-2 md:flex" aria-label="footer">
+        <a href="#Music" class="hover:opacity-90">Music</a>
+        <a href="#About" class="hover:opacity-90">About</a>
+      </nav>
+      <div class="footer-col">
+        <h4>Socials</h4>
+          <a href="https://www.facebook.com/ancok.you.1"><i class="fa fa-facebook-f"></i></a>
+          <a href="https://telegram.im/@burzumorg"><i class="fa fa-telegram"></i></a>
+          <a href="https://www.youtube.com/@gorimlongbeard7207"><i class="fa fa-youtube"></i></a>
+
+        </div>
+    </section>
+  </footer>
+
+  <script type="text/javascript">(function() {var script=document.createElement("script");script.type="text/javascript";script.async =true;script.src="//telegram.im/widget-button/index.php?id=@kryptopolska_pl";document.getElementsByTagName("head")[0].appendChild(script);})();</script>
+
+
+</body>
+
+</html>
